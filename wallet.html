@@ -1,0 +1,15 @@
+<p>钱包页</p>
+<div>
+	二级菜单：
+	<a href="#!/wallet">默认：钱包交易记录</a>
+	<a href="#!/wallet/recharge">钱包充值</a>
+	<a href="#!/wallet/withdraw">钱包提现</a>
+</div>
+<br>
+<div ms-controller="wallet">
+	<div>钱包公用数据：{{amount}}</div>
+	<br>
+    <div ms-view>
+    	钱包内容：钱包交易记录
+    </div>
+</div>
